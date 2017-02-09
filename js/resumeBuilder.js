@@ -28,11 +28,11 @@ var bio = {
         $("#header").prepend(HTMLheaderRole.replace(data, "IM Coordinator"));
         $("#header").prepend(HTMLheaderName.replace(data, "Zhandos Ashirbayev"));
 
-        $("#topContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
-        $("#topContacts").append(HTMLemail.replace(data, bio.contacts.email));
-        $("#topContacts").append(HTMLgithub.replace(data, bio.contacts.github));
-        $("#topContacts").append(HTMLtwitter.replace(data, bio.contacts.twitter));
-        $("#topContacts").append(HTMLlocation.replace(data, bio.contacts.location));
+        $("#topContacts, #footerContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
+        $("#topContacts, #footerContacts").append(HTMLemail.replace(data, bio.contacts.email));
+        $("#topContacts, #footerContacts").append(HTMLgithub.replace(data, bio.contacts.github));
+        $("#topContacts, #footerContacts").append(HTMLtwitter.replace(data, bio.contacts.twitter));
+        $("#topContacts, #footerContacts").append(HTMLlocation.replace(data, bio.contacts.location));
 
         $("#header").append(HTMLbioPic.replace(data, bio.biopic));
         $("#header").append(HTMLwelcomeMsg.replace(data, bio.welcomeMessage));
@@ -42,11 +42,6 @@ var bio = {
             $("#header").append(HTMLskills.replace(data, bio.skills[counter]));
         }
 
-        $("#footerContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
-        $("#footerContacts").append(HTMLemail.replace(data, bio.contacts.email));
-        $("#footerContacts").append(HTMLgithub.replace(data, bio.contacts.github));
-        $("#footerContacts").append(HTMLtwitter.replace(data, bio.contacts.twitter));
-        $("#footerContacts").append(HTMLlocation.replace(data, bio.contacts.location));
     } // end of display function
 }; // end of bio Object
 bio.display(); // Calling bio.display function
