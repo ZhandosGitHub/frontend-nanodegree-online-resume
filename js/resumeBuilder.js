@@ -13,11 +13,11 @@ var bio = {
     "name": "Zhandos Ashirbayev",
     "role": "IM Coordinator",
     "contacts": {
-        "mobile": "777-777-7777",
+        "mobile": "+7-701-740-7288",
         "email": "zhandos.ashirbayev@gmail.com",
         "github": "ZhandosGitHub",
         "twitter": "@ZhandosA",
-        "location": "Atyrau"
+        "location": "Kazakhstan"
     },
     "welcomeMessage": "Welcome to My Resume Page. Thank you for the visit!",
     "skills": [
