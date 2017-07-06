@@ -4,8 +4,8 @@ This is "Online Resume" Project, as part of Udacity's "Front End Developer Nanod
 
 # Running
 
-* To see online - [Link to "Online Resume"](https://zhandosgithub.github.io/Online%20Resume/index.html)
-* To see locally - clone the [Project](https://github.com/ZhandosGitHub/frontend-nanodegree-online-resume) from GitHub and run Index.html file
+* To see online - see [demo version](https://zhandosgithub.github.io/Online%20Resume/index.html) of "Online Resume" project
+* To see locally - clone the "Online Resume" project [repository](https://github.com/ZhandosGitHub/frontend-nanodegree-online-resume) from GitHub and run Index.html file
 
 # Authors
 
